@@ -5,9 +5,11 @@ This library gives ability to access the data from sensors send by [this app](ht
 
 ## Prerequisites
 
-You have to download ADB tools on your PC and ADB debugging has to be turned on your phone.
-
-The library uses Newton.JSON library for json object deserialization.
+- Microsoft Visual Studio 2019
+- .NET Core 2.2
+- ADB tools downladed on your PC 
+- USB debugging turned on your phone.
+- Newton.JSON (v12.0.2) library for json object deserialization.
 
 ## Usage
 

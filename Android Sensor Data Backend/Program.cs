@@ -21,7 +21,14 @@ namespace Android_Sensor_Test
 
         private static void Monitor_sensorDataCallback(SensorData data)
         {
-            Console.WriteLine(data.type);
+            Console.Write(data.type+", values:");
+            for (int i = 0; i < data.values.Length; i++)
+            {
+                Console.Write(data.values[i]);
+                if (i < data.values.Length - 1)
+                    Console.Write(", ");
+            }
+            Console.WriteLine();
         }
     }
 }
